@@ -2,9 +2,14 @@
   "name": "vibe-game",
   "version": "1.0.0",
   "scripts": {
-    "start": "node serve.js"
+    "start": "node serve.js",
+    "build": "echo 'Static site - no build needed'"
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "zeabur": {
+    "installCommand": "npm install",
+    "startCommand": "npm start"
   }
 }
